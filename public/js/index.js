@@ -60,7 +60,7 @@ let rightMovie;
 
 // The final call to the api to display all of the info about a specific movie
 const onMovieSelect = async (movie, summaryElement, side) => {
-    const response = await axios.get('http://www.omdbapi.com/', {
+    const response = await axios.get('https://www.omdbapi.com/', {
         params: {
             apikey: 'e926c0f2',
             i: movie.imdbID,
